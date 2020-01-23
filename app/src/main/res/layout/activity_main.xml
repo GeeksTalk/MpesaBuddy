@@ -20,6 +20,7 @@
       android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/amountEdit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Amount"/>
@@ -33,6 +34,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp">
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/phoneEdit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Phone Number"/>
@@ -48,6 +50,14 @@
         android:layout_marginTop="16dp"
         android:textColor="#FFFFFF"
         android:textSize="18sp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:layout_margin="16dp"
+        android:visibility="gone"/>
 
 
 </LinearLayout>
