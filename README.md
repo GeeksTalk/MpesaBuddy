@@ -17,6 +17,8 @@ For those new to Android, we use [Retrofit](https://square.github.io/retrofit/) 
 
 There is no extra magic here, just the way you can consume other API's in Android is the same way you will consume the M-Pesa API.
 
+Retrofit is a library for handling REST API calls on Android. Retrofit automatically serialises the JSON response using a POJO(Plain Old Java Object) which must be defined in advanced for the JSON Structure. 
+
 ### Other Approaches
 - Using M-Pesa SDK - [Sample Project](https://github.com/jumaallan/AndroidMPesaAPI)
 - Lipa Na Mpesa Online - [Sample Project](https://github.com/safaricom/LNMOnlineAndroidSample)
